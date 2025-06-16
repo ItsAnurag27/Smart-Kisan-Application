@@ -46,9 +46,9 @@ Smart Kisan is a smart farming platform built to transform traditional agricultu
 
 -
 
-  ![Login Page](screenshots/login_page.jpeg)  
-  ![Sensor-Monitor](screenshots/Sensor_monitor.jpeg)  
-  ![Climate](screenshots/Climate.jpeg)
+  ![Login Page](Screenshots/login_page.jpeg)  
+  ![Sensor-Monitor](Screenshots/Sensor_monitor.jpeg)  
+  ![Climate](Screenshots/Climate.jpeg)
 
 ---
 
