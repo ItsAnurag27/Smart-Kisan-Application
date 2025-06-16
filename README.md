@@ -132,7 +132,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 Got feedback or suggestions?
 
-📧 anurag@example.com  
+📧 anuragguptap0@gmail.com.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/anurag-gupta-92962019b/)  
 🔗 [GitHub](https://github.com/itsAnurag27)
 
