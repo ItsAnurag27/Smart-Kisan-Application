@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f3"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mainlogo"
+            android:transitionName="mainlogo" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/clearbackground" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginEnd="201dp"
+        android:text="Welcome"
+        android:textColor="#000000"
+        android:textSize="41sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="0dp"
+        android:text="Let's get started"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView2"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        app:neumorph_shapeType="pressed">
+
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/no_background"
+            android:hint="Full Name"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+
+            android:textCursorDrawable="@drawable/cursor" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="10dp"
+        app:neumorph_shapeType="pressed">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/no_background"
+            android:hint="Email"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textCursorDrawable="@drawable/cursor" />
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView3"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/neumorphCardView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        app:neumorph_shapeType="pressed">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-10dp"
+            android:layout_marginEnd="-18dp"
+            android:background="@drawable/no_background"
+            android:hint="Password"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textCursorDrawable="@drawable/cursor" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView4"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/neumorphCardView3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:neumorph_shapeType="pressed">
+
+
+        <EditText
+            android:id="@+id/cng_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-10dp"
+            android:layout_marginEnd="-18dp"
+            android:background="@drawable/no_background"
+            android:hint="Confirm Password"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textCursorDrawable="@drawable/cursor" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/layout_top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="-26dp"
+        android:visibility="invisible">
+
+    </ProgressBar>
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/neumorphCardView4"
+        android:layout_margin="8dp"
+        android:layout_marginTop="-565dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/black"
+        android:padding="8dp"
+        android:text="Register"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/have_an_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_btn"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:text="Already have an Account?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        />
+
+
+</RelativeLayout>

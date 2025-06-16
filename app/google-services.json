@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "753557741730",
+    "firebase_url": "https://fir-fcdab-default-rtdb.firebaseio.com",
+    "project_id": "fir-fcdab",
+    "storage_bucket": "fir-fcdab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753557741730:android:9f897c82db052728c3f7fb",
+        "android_client_info": {
+          "package_name": "com.example.atry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0xsBGp2_hNbzm-GTMLhQpY0b2QvJd5Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753557741730:android:578438b4d9f9e913c3f7fb",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0xsBGp2_hNbzm-GTMLhQpY0b2QvJd5Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
